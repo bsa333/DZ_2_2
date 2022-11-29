@@ -24,6 +24,6 @@ a = int(input('Enter position of  element: '))
 b = int(input('Enter position of  element: '))
 c = int(input('Enter position of  element: '))
 
-for i in range(len(numbers)):
-    mult = numbers[x -1]*numbers[y - 1]*numbers[a - 1]*numbers[b - 1]*numbers[c - 1]
+
+mult = numbers[x -1]*numbers[y - 1]*numbers[a - 1]*numbers[b - 1]*numbers[c - 1]
 print(f'Mult of elements: {numbers[x -1]} * {numbers[y -1]} * {numbers[a - 1]} * {numbers[b- 1]} * {numbers[c - 1]} =', mult)
